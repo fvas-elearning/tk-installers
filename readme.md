@@ -1,10 +1,10 @@
-# Tk Installers :boom: 
+# Tk Installers :boom:
 
 __Project:__ [uom/tk-installers](http://packagist.org/packages/uom/tk-installers)
 __Web:__ <http://www.tropotek.com/>  
 __Authors:__ Michael Mifsud <http://www.tropotek.com/>  
-__Reference:__ <https://getcomposer.org/doc/articles/custom-installers.md>  
-  
+__Reference:__ <https://getcomposer.org/doc/articles/custom-installers.md>
+
 This lib is used by composer when using the update/install command.
 
 ## Contents
@@ -38,12 +38,12 @@ to other directories other than the `vendor` directory.
 
 Tk projects also contain:
 
- - `assets` A folder to store media, css and Javascript packages if required
- - `plugins` A folder for plugins that some sites may want to implement.
- - `theme` A folder for your site themes
+- `assets` A folder to store media, css and Javascript packages if required
+- `plugins` A folder for plugins that some sites may want to implement.
+- `theme` A folder for your site themes
 
-The InitProject Event object is used when the composer update/install command is 
-run. This first checks for a config.php and a .htaccess and if they do not exist it then creates them from 
+The InitProject Event object is used when the composer update/install command is
+run. This first checks for a config.php and a .htaccess and if they do not exist it then creates them from
 the .htaccess.in and config.php.in if they are readable. It also creates a data folder and makes it writable.
 
 
