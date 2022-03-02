@@ -1,5 +1,5 @@
 {
-    "name": "ttek/tk-installers",
+    "name": "uom/tk-installers",
     "type": "composer-plugin",
     "description": "Tropotek installer plugins",
     "keywords": ["installers", "tools", "tropotek"],
